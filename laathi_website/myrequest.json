@@ -1,0 +1,51 @@
+{
+  "context": {
+    "operation": {
+      "ops_no": 1
+    }
+  },
+  "message": {
+    "request_id": "8059e9b1-5902-4315-86b5-489f186442da",
+    "timestamp": "2024-03-19T11:02:24.251Z",
+    "entity": {
+      "gst": {
+        "legal_entity_name": "Techshy Private Limited",
+        "business_address": "WA-52, S/F.Main Market, Shakarpur, East Delhi, 110092",
+        "city_code": [
+          "std:011"
+        ],
+        "gst_no": "07AAKCT2698E1ZZ"
+      },
+      "pan": {
+        "name_as_per_pan": "Techshy Private Limited",
+        "pan_no": "AAKCT2698E",
+        "date_of_incorporation": "14/07/2023"
+      },
+      "name_of_authorised_signatory": "Navneet Kumar",
+      "address_of_authorised_signatory": "102, Avanti 4, IIT Delhi, Hauz Khas, New Delhi, 110016",
+      "email_id": "vireshwar.kumar@gmail.com",
+      "mobile_no": 6299913515,
+      "country": "IND",
+      "subscriber_id": "laathi.com",
+      "unique_key_id": "731",
+      "callback_url": "/",
+      "key_pair": {
+        "signing_public_key": "mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=",
+        "encryption_public_key": "MCowBQYDK2VuAyEALvu+4rULAKsM2fcQfwPP/V3vAe3C+NBJh5FztwHYziY=",
+        "valid_from": "2024-03-19T11:02:24.251Z",
+        "valid_until": "2025-03-19T11:02:24.251Z"
+      }
+    },
+    "network_participant": [
+      {
+        "subscriber_url": "/",
+        "domain": "ONDC:RET10",
+        "type": "buyerApp",
+        "msn": false,
+        "city_code": [
+          "std:011"
+        ]
+      }
+    ]
+  }
+}

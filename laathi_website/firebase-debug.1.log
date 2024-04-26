@@ -1,0 +1,132 @@
+[debug] [2024-03-07T08:07:49.026Z] ----------------------------------------------------------------------
+[debug] [2024-03-07T08:07:49.028Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Omkar Bhamare\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-03-07T08:07:49.029Z] CLI Version:   13.4.0
+[debug] [2024-03-07T08:07:49.029Z] Platform:      win32
+[debug] [2024-03-07T08:07:49.029Z] Node Version:  v18.16.0
+[debug] [2024-03-07T08:07:49.030Z] Time:          Thu Mar 07 2024 13:37:49 GMT+0530 (India Standard Time)
+[debug] [2024-03-07T08:07:49.030Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-07T08:07:49.113Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-07T08:07:49.113Z] > authorizing via signed-in user (team@laathi.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  hub: emulator hub unable to start on port 4400, starting on 4401 instead. {"metadata":{"emulator":{"name":"hub"},"message":"emulator hub unable to start on port 4400, starting on 4401 instead."}}
+[warn] !  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead. {"metadata":{"emulator":{"name":"logging"},"message":"Logging Emulator unable to start on port 4500, starting on 4501 instead."}}
+[debug] [2024-03-07T08:07:49.142Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  hosting: Hosting Emulator unable to start on port 5000, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5000, starting on 5002 instead."}}
+[debug] [2024-03-07T08:07:49.143Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-07T08:07:49.143Z] assigned listening specs for emulators {"user":{"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project laathi-webpage. This may result in unexpected behavior. 
+[debug] [2024-03-07T08:07:49.155Z] [hub] writing locator at C:\WINDOWS\TEMP\hub-laathi-webpage.json
+[debug] [2024-03-07T08:07:49.232Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-07T08:07:49.233Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-07T08:07:49.233Z] late-assigned ports for functions and eventarc emulators {"user":{"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"hub":[{"address":"127.0.0.1","family":"IPv4","port":4401},{"address":"::1","family":"IPv6","port":4401}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4501}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2024-03-07T08:07:49.236Z] defaultcredentials: writing to file C:\Users\Omkar Bhamare\AppData\Roaming\firebase\team_laathi_com_application_default_credentials.json
+[debug] [2024-03-07T08:07:49.238Z] Setting GAC to C:\Users\Omkar Bhamare\AppData\Roaming\firebase\team_laathi_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Omkar Bhamare\\AppData\\Roaming\\firebase\\team_laathi_com_application_default_credentials.json"}}
+[debug] [2024-03-07T08:07:49.243Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage/adminSdkConfig [none]
+[debug] [2024-03-07T08:07:50.093Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage/adminSdkConfig 200
+[debug] [2024-03-07T08:07:50.094Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage/adminSdkConfig {"projectId":"laathi-webpage","storageBucket":"laathi-webpage.appspot.com"}
+[debug] [2024-03-07T08:07:50.112Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/laathi-webpage/sites 
+[debug] [2024-03-07T08:07:51.525Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/laathi-webpage/sites 200
+[debug] [2024-03-07T08:07:51.525Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/laathi-webpage/sites {"sites":[{"name":"projects/laathi-webpage/sites/laathi-webpage","defaultUrl":"https://laathi-webpage.web.app","appId":"1:679746648873:web:9cf21b2e7b533eb004d538","type":"DEFAULT_SITE"}]}
+[debug] [2024-03-07T08:07:51.525Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage/webApps/1:679746648873:web:9cf21b2e7b533eb004d538/config [none]
+[debug] [2024-03-07T08:07:52.649Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage/webApps/1:679746648873:web:9cf21b2e7b533eb004d538/config 200
+[debug] [2024-03-07T08:07:52.649Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage/webApps/1:679746648873:web:9cf21b2e7b533eb004d538/config {"projectId":"laathi-webpage","appId":"1:679746648873:web:9cf21b2e7b533eb004d538","storageBucket":"laathi-webpage.appspot.com","apiKey":"AIzaSyAAMZ4SiaLtVRBqMaXehzDwWYZ55dAOfNE","authDomain":"laathi-webpage.firebaseapp.com","messagingSenderId":"679746648873","measurementId":"G-QNNG4QGVQW"}
+[debug] [2024-03-07T08:07:52.666Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage [none]
+[debug] [2024-03-07T08:07:53.290Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage 200
+[debug] [2024-03-07T08:07:53.291Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/laathi-webpage {"projectId":"laathi-webpage","projectNumber":"679746648873","displayName":"laathi-webpage","name":"projects/laathi-webpage","resources":{"hostingSite":"laathi-webpage"},"state":"ACTIVE","etag":"1_dfde2c0d-b7b3-411b-a0ed-5ba500b8463e"}
+[info] i  hosting[laathi-webpage]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[laathi-webpage]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[debug] [2024-03-07T08:07:53.337Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-07T08:07:53.337Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-07T08:07:53.337Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Omkar Bhamare\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Omkar Bhamare\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-07T08:07:53.501Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-03-07T08:07:53.502Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Omkar Bhamare\OneDrive\Documents\Laathi-ONDC\laathi_website\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\" for Cloud Functions..."}}
+[debug] [2024-03-07T08:07:53.623Z] Validating nodejs source
+[debug] [2024-03-07T08:07:55.355Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-03-07T08:07:55.355Z] Building nodejs source
+[debug] [2024-03-07T08:07:55.355Z] Failed to find version of module node: reached end of search path C:\Users\Omkar Bhamare\OneDrive\Documents\Laathi-ONDC\laathi_website\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-03-07T08:07:55.358Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-07T08:07:55.368Z] Found firebase-functions binary at 'C:\Users\Omkar Bhamare\OneDrive\Documents\Laathi-ONDC\laathi_website\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8337
+
+[debug] [2024-03-07T08:07:56.315Z] Got response from /__/functions.yaml {"endpoints":{"onSubscribe":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"onSubscribe"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: onSubscribe. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: onSubscribe."}}
+[info] +  functions[us-central1-onSubscribe]: http function initialized (http://127.0.0.1:5001/laathi-webpage/us-central1/onSubscribe). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/laathi-webpage/us-central1/onSubscribe)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5002 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4401
+  Other reserved ports: 4501
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-07T08:08:29.389Z] [work-queue] {"queuedWork":["/laathi-webpage/us-central1/onSubscribe-2024-03-07T08:08:29.389Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-03-07T08:08:29.390Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/laathi-webpage/us-central1/onSubscribe-2024-03-07T08:08:29.389Z"],"workRunningCount":1}
+[debug] [2024-03-07T08:08:29.390Z] Accepted request GET /laathi-webpage/us-central1/onSubscribe --> us-central1-onSubscribe
+[debug] [2024-03-07T08:08:29.391Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-03-07T08:08:29.393Z] [functions] Got req.url=/laathi-webpage/us-central1/onSubscribe, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/laathi-webpage/us-central1/onSubscribe, mapping to path=/"}}
+[debug] [2024-03-07T08:08:29.410Z] [worker-pool] addWorker(us-central1-onSubscribe) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-onSubscribe)"}}
+[debug] [2024-03-07T08:08:29.412Z] [worker-pool] Adding worker with key us-central1-onSubscribe, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-onSubscribe, total=1"}}
+[debug] [2024-03-07T08:08:30.910Z] [runtime-status] [16592] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-03-07T08:08:30.912Z] [runtime-status] [16592] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-07T08:08:30.913Z] [runtime-status] [16592] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-03-07T08:08:30.914Z] [runtime-status] [16592] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-07T08:08:31.189Z] [runtime-status] [16592] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-03-07T08:08:31.189Z] [runtime-status] [16592] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2024-03-07T08:08:31.190Z] [runtime-status] [16592] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-07T08:08:31.193Z] [runtime-status] [16592] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-03-07T08:08:31.200Z] [runtime-status] [16592] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.7.0","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.7.0\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-03-07T08:08:31.201Z] [runtime-status] [16592] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2024-03-07T08:08:31.338Z] [runtime-status] [16592] Functions runtime initialized. {"cwd":"C:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_website\\functions","node_version":"18.16.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Omkar Bhamare\\\\OneDrive\\\\Documents\\\\Laathi-ONDC\\\\laathi_website\\\\functions\",\"node_version\":\"18.16.0\"}"}}
+[debug] [2024-03-07T08:08:31.338Z] [runtime-status] [16592] Listening to port: \\?\pipe\fire_emu_8f44029c0c4848fb {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[runtime-status] [16592] Listening to port: \\\\?\\pipe\\fire_emu_8f44029c0c4848fb"}}
+[debug] [2024-03-07T08:08:31.412Z] [worker-us-central1-onSubscribe-74258fda-60a2-47eb-be94-0e7cb313c964]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[worker-us-central1-onSubscribe-74258fda-60a2-47eb-be94-0e7cb313c964]: IDLE"}}
+[debug] [2024-03-07T08:08:31.413Z] [worker-pool] submitRequest(triggerId=us-central1-onSubscribe) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-onSubscribe)"}}
+[info] i  functions: Beginning execution of "us-central1-onSubscribe" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"Beginning execution of \"us-central1-onSubscribe\""}}
+[debug] [2024-03-07T08:08:31.416Z] [worker-us-central1-onSubscribe-74258fda-60a2-47eb-be94-0e7cb313c964]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[worker-us-central1-onSubscribe-74258fda-60a2-47eb-be94-0e7cb313c964]: BUSY"}}
+[debug] [2024-03-07T08:08:31.426Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-onSubscribe" in 10.6711ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"Finished \"us-central1-onSubscribe\" in 10.6711ms"}}
+[debug] [2024-03-07T08:08:31.428Z] [worker-us-central1-onSubscribe-74258fda-60a2-47eb-be94-0e7cb313c964]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"[worker-us-central1-onSubscribe-74258fda-60a2-47eb-be94-0e7cb313c964]: IDLE"}}
+[debug] [2024-03-07T08:08:31.428Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-03-07T08:08:31.429Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-onSubscribe"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-03-07T08:08:31.429Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
