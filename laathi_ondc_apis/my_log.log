@@ -1,0 +1,3686 @@
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.1.0",
+    "bap_id": "https://laathi.com",
+    "bap_uri": "http://127.0.0.1:5000/search",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T15:40:34.865Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710843037",expires="1710846637",headers="(created) (expires) digest",signature="PishpNKU1i51rW6nYj8Cb6WBh52U7QEDnsmOsTi5glQc/rpPfK+r8hrg4GhSDsR3NImop7b0zUc5TuZP/qJhDg=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.1.0",
+    "bap_id": "https://laathi.com",
+    "bap_uri": "http://127.0.0.1:5000/search",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T15:40:34.865Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1710843037
+(expires): 1710846637
+digest: BLAKE-512=L1SrdIIJ4yi2PXpEMopa/HB6wEuIBueNk/fMCk2QFbsFtsILUT9RqyvWbViFX36Wwsj+1jZf8P2z2WvkwF+slw==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: PishpNKU1i51rW6nYj8Cb6WBh52U7QEDnsmOsTi5glQc/rpPfK+r8hrg4GhSDsR3NImop7b0zUc5TuZP/qJhDg==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1710843037\n(expires): 1710846637\ndigest: BLAKE-512=L1SrdIIJ4yi2PXpEMopa/HB6wEuIBueNk/fMCk2QFbsFtsILUT9RqyvWbViFX36Wwsj+1jZf8P2z2WvkwF+slw=='
+DEBUG:root:Input to verify, the signature: PishpNKU1i51rW6nYj8Cb6WBh52U7QEDnsmOsTi5glQc/rpPfK+r8hrg4GhSDsR3NImop7b0zUc5TuZP/qJhDg==
+DEBUG:root:Value of returnedbytes: b'(created): 1710843037\n(expires): 1710846637\ndigest: BLAKE-512=L1SrdIIJ4yi2PXpEMopa/HB6wEuIBueNk/fMCk2QFbsFtsILUT9RqyvWbViFX36Wwsj+1jZf8P2z2WvkwF+slw=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.1.0",
+    "bap_id": "https://laathi.com",
+    "bap_uri": "http://127.0.0.1:5000/search",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T15:40:34.865Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.1.0",
+    "bap_id": "https://laathi.com",
+    "bap_uri": "http://127.0.0.1:5000/search",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T15:40:34.865Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET12",    "country": "IND",    "city": "std:0124",    "action": "search",    "core_version": "1.1.0",    "bap_id": "https://laathi.com",    "bap_uri": "http://127.0.0.1:5000/search",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-19T15:40:34.865Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.1.0",
+    "bap_id": "https://laathi.com",
+    "bap_uri": "http://127.0.0.1:5000/search",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T15:40:34.865Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:32:16.373Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710856937",expires="1710860537",headers="(created) (expires) digest",signature="M36a9uI0zrFz7P6mp4fgVhMrxpxUb2WD5RT3KmXuD227bFJ5aiLa9loFNytS/PbWfJour4XPgW2gF1FnSvK6DQ=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:32:16.373Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1710856937
+(expires): 1710860537
+digest: BLAKE-512=Q1LP5kbXusbqWRDHggjIFEmi7GUNhvQ1qdYpxlpHtYpJDBrJ9AO0Jv5OLsd/P3uemZ9oe+vRwfr/OmgSxG6TPQ==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: M36a9uI0zrFz7P6mp4fgVhMrxpxUb2WD5RT3KmXuD227bFJ5aiLa9loFNytS/PbWfJour4XPgW2gF1FnSvK6DQ==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1710856937\n(expires): 1710860537\ndigest: BLAKE-512=Q1LP5kbXusbqWRDHggjIFEmi7GUNhvQ1qdYpxlpHtYpJDBrJ9AO0Jv5OLsd/P3uemZ9oe+vRwfr/OmgSxG6TPQ=='
+DEBUG:root:Input to verify, the signature: M36a9uI0zrFz7P6mp4fgVhMrxpxUb2WD5RT3KmXuD227bFJ5aiLa9loFNytS/PbWfJour4XPgW2gF1FnSvK6DQ==
+DEBUG:root:Value of returnedbytes: b'(created): 1710856937\n(expires): 1710860537\ndigest: BLAKE-512=Q1LP5kbXusbqWRDHggjIFEmi7GUNhvQ1qdYpxlpHtYpJDBrJ9AO0Jv5OLsd/P3uemZ9oe+vRwfr/OmgSxG6TPQ=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:32:16.373Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:32:16.373Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET12",    "country": "IND",    "city": "std:0124",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-19T19:32:16.373Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET12",
+    "country": "IND",
+    "city": "std:0124",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:32:16.373Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:41:10.014Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710857470",expires="1710861070",headers="(created) (expires) digest",signature="rZxJPNLFE8Af1fZ/wTiAY2WTdj8xk1fAIglRSje/4juFwSHgjg+MtYPQRtlM3dYexiJxe81kcR+qOuzEwpFCDA=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:41:10.014Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1710857470
+(expires): 1710861070
+digest: BLAKE-512=bMAsOKFXFRWQWaZ63rWWEXmMjMFsfdV2TsXTyUbKtol8FcEBel9hqtG1F+PH3fRGAwRb1SdAbiJ/ocNS17UFrQ==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: rZxJPNLFE8Af1fZ/wTiAY2WTdj8xk1fAIglRSje/4juFwSHgjg+MtYPQRtlM3dYexiJxe81kcR+qOuzEwpFCDA==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1710857470\n(expires): 1710861070\ndigest: BLAKE-512=bMAsOKFXFRWQWaZ63rWWEXmMjMFsfdV2TsXTyUbKtol8FcEBel9hqtG1F+PH3fRGAwRb1SdAbiJ/ocNS17UFrQ=='
+DEBUG:root:Input to verify, the signature: rZxJPNLFE8Af1fZ/wTiAY2WTdj8xk1fAIglRSje/4juFwSHgjg+MtYPQRtlM3dYexiJxe81kcR+qOuzEwpFCDA==
+DEBUG:root:Value of returnedbytes: b'(created): 1710857470\n(expires): 1710861070\ndigest: BLAKE-512=bMAsOKFXFRWQWaZ63rWWEXmMjMFsfdV2TsXTyUbKtol8FcEBel9hqtG1F+PH3fRGAwRb1SdAbiJ/ocNS17UFrQ=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:41:10.014Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:41:10.014Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-19T19:41:10.014Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-19T19:41:10.014Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-20T11:55:04.761Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710915905",expires="1710919505",headers="(created) (expires) digest",signature="eQR5kj9heEVmEDsAWL/vIvr6PBze2uNl3hN/xmBb3zthmmrz1ts1VTui6Q2VuvKXt3ZtCvYZaCnvO873DJHBDQ=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-20T11:55:04.761Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1710915905
+(expires): 1710919505
+digest: BLAKE-512=oF2PXWI+RxHQjyCFmLFXJXhOqdXpSuLchJQPI1YLNVkjKUjIpzv9cUc/5sJWA+7qDhSqGbg2CC7TmtzGlJi8cg==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: eQR5kj9heEVmEDsAWL/vIvr6PBze2uNl3hN/xmBb3zthmmrz1ts1VTui6Q2VuvKXt3ZtCvYZaCnvO873DJHBDQ==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1710915905\n(expires): 1710919505\ndigest: BLAKE-512=oF2PXWI+RxHQjyCFmLFXJXhOqdXpSuLchJQPI1YLNVkjKUjIpzv9cUc/5sJWA+7qDhSqGbg2CC7TmtzGlJi8cg=='
+DEBUG:root:Input to verify, the signature: eQR5kj9heEVmEDsAWL/vIvr6PBze2uNl3hN/xmBb3zthmmrz1ts1VTui6Q2VuvKXt3ZtCvYZaCnvO873DJHBDQ==
+DEBUG:root:Value of returnedbytes: b'(created): 1710915905\n(expires): 1710919505\ndigest: BLAKE-512=oF2PXWI+RxHQjyCFmLFXJXhOqdXpSuLchJQPI1YLNVkjKUjIpzv9cUc/5sJWA+7qDhSqGbg2CC7TmtzGlJi8cg=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-20T11:55:04.761Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-20T11:55:04.761Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-20T11:55:04.761Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-20T11:55:04.761Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:16:39.954Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711003602",expires="1711007202",headers="(created) (expires) digest",signature="Ro62K0M1itKtpwGLUN1IdUIg/3YVlor4VJyEY1PjRDjvxu4EWiiq4hMgq79OqZb/xEK4Lt6lGkDKBoIWJvM+DQ=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:16:39.954Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711003602
+(expires): 1711007202
+digest: BLAKE-512=zFjXmrcYTZnXckTChuu07/WGlogdvwY/GQDFKvDrCosa6NSfjldmZod9eGj4Gl2LTB5XSue78G6diLqd0JJ0jw==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: Ro62K0M1itKtpwGLUN1IdUIg/3YVlor4VJyEY1PjRDjvxu4EWiiq4hMgq79OqZb/xEK4Lt6lGkDKBoIWJvM+DQ==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1711003602\n(expires): 1711007202\ndigest: BLAKE-512=zFjXmrcYTZnXckTChuu07/WGlogdvwY/GQDFKvDrCosa6NSfjldmZod9eGj4Gl2LTB5XSue78G6diLqd0JJ0jw=='
+DEBUG:root:Input to verify, the signature: Ro62K0M1itKtpwGLUN1IdUIg/3YVlor4VJyEY1PjRDjvxu4EWiiq4hMgq79OqZb/xEK4Lt6lGkDKBoIWJvM+DQ==
+DEBUG:root:Value of returnedbytes: b'(created): 1711003602\n(expires): 1711007202\ndigest: BLAKE-512=zFjXmrcYTZnXckTChuu07/WGlogdvwY/GQDFKvDrCosa6NSfjldmZod9eGj4Gl2LTB5XSue78G6diLqd0JJ0jw=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:16:39.954Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:16:39.954Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-21T12:16:39.954Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:16:39.954Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:18:27.421Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711003709",expires="1711007309",headers="(created) (expires) digest",signature="UwWeOkgTQ6sowFXPG1C3yOET5BVgW9g6EZlnEitbvoiTXkszLqY3NPQ1TGk8sitdu686IEsATjfW7zb/phPsDw=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:18:27.421Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711003709
+(expires): 1711007309
+digest: BLAKE-512=GpkXoZX/yK9SYDnN6ov5VVPkOttYXDuxZdZKO1kwEvhpYBxOnADKZLg+DRK3+8AjSc5JejzXHik6IZ1BamCufg==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: UwWeOkgTQ6sowFXPG1C3yOET5BVgW9g6EZlnEitbvoiTXkszLqY3NPQ1TGk8sitdu686IEsATjfW7zb/phPsDw==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1711003709\n(expires): 1711007309\ndigest: BLAKE-512=GpkXoZX/yK9SYDnN6ov5VVPkOttYXDuxZdZKO1kwEvhpYBxOnADKZLg+DRK3+8AjSc5JejzXHik6IZ1BamCufg=='
+DEBUG:root:Input to verify, the signature: UwWeOkgTQ6sowFXPG1C3yOET5BVgW9g6EZlnEitbvoiTXkszLqY3NPQ1TGk8sitdu686IEsATjfW7zb/phPsDw==
+DEBUG:root:Value of returnedbytes: b'(created): 1711003709\n(expires): 1711007309\ndigest: BLAKE-512=GpkXoZX/yK9SYDnN6ov5VVPkOttYXDuxZdZKO1kwEvhpYBxOnADKZLg+DRK3+8AjSc5JejzXHik6IZ1BamCufg=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:18:27.421Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:18:27.421Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-21T12:18:27.421Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:18:27.421Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:31:10.203Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711004471",expires="1711008071",headers="(created) (expires) digest",signature="pckoJMWD43NQI/mI75nPgz3gTXcFt+LBKfO5GA2xw3XrGDoaywDCsTAxZltEAvLr4fscGEHH7l94yvQunIbeAQ=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:31:10.203Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711004471
+(expires): 1711008071
+digest: BLAKE-512=kK7LknDeAJ63k3j/BfdYKdg2diI0/QpF5DbxNz5Je3jL8WLJzHslQugIIGbo0MWHj1CmVKOw5foi+BQqD90l2Q==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: pckoJMWD43NQI/mI75nPgz3gTXcFt+LBKfO5GA2xw3XrGDoaywDCsTAxZltEAvLr4fscGEHH7l94yvQunIbeAQ==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1711004471\n(expires): 1711008071\ndigest: BLAKE-512=kK7LknDeAJ63k3j/BfdYKdg2diI0/QpF5DbxNz5Je3jL8WLJzHslQugIIGbo0MWHj1CmVKOw5foi+BQqD90l2Q=='
+DEBUG:root:Input to verify, the signature: pckoJMWD43NQI/mI75nPgz3gTXcFt+LBKfO5GA2xw3XrGDoaywDCsTAxZltEAvLr4fscGEHH7l94yvQunIbeAQ==
+DEBUG:root:Value of returnedbytes: b'(created): 1711004471\n(expires): 1711008071\ndigest: BLAKE-512=kK7LknDeAJ63k3j/BfdYKdg2diI0/QpF5DbxNz5Je3jL8WLJzHslQugIIGbo0MWHj1CmVKOw5foi+BQqD90l2Q=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:31:10.203Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:31:10.203Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-21T12:31:10.203Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-21T12:31:10.203Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T10:59:19.285Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T10:59:19.285Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711085360
+(expires): 1711088960
+digest: BLAKE-512=eJfl9meRGeRX6iGJb8SHGOwY/SupEmJjbJEoV2mLOyThqN+JEp9cuyE+MwUee/KNvoxExwTDF8xrv3C6mOs7SA==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1711085360\n(expires): 1711088960\ndigest: BLAKE-512=eJfl9meRGeRX6iGJb8SHGOwY/SupEmJjbJEoV2mLOyThqN+JEp9cuyE+MwUee/KNvoxExwTDF8xrv3C6mOs7SA=='
+DEBUG:root:Input to verify, the signature: hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA==
+DEBUG:root:Value of returnedbytes: b'(created): 1711085360\n(expires): 1711088960\ndigest: BLAKE-512=eJfl9meRGeRX6iGJb8SHGOwY/SupEmJjbJEoV2mLOyThqN+JEp9cuyE+MwUee/KNvoxExwTDF8xrv3C6mOs7SA=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T10:59:19.285Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T10:59:19.285Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-22T10:59:19.285Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T10:59:19.285Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T10:59:19.285Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: eMDN7CwWg///A446p9PhmMEEzlXfrGiIsP/nwxbfTvvv6NUtbX7TsdY/4GcZ75GQiO9OUFTaN+2fvgJYmfYeJA==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711087077",expires="1711090677",headers="(created) (expires) digest",signature="tzlpAW13NWph71bYE10p7Qg9uCpjs5+WJrvOdQuHscOx+KPyifmTKcVEd+U3B0EnyUuP0hft91G3OM1AGy4ADg=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711087077
+(expires): 1711090677
+digest: BLAKE-512=5iuXHfUVckSmyHMZ2xXfm7cw/B6t0KYO05XdENKeGO7K9qTT2Fm81DQvboYhmvNKxYtJeoPJIbAfYTQgDRI3Zg==
+DEBUG:root:Value of public_key: 7+jVLW1+07HWP+BnGe+RkIjvTlBU2jftn74CWJn2HiQ=
+DEBUG:root:Signature given to verify_response: tzlpAW13NWph71bYE10p7Qg9uCpjs5+WJrvOdQuHscOx+KPyifmTKcVEd+U3B0EnyUuP0hft91G3OM1AGy4ADg==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1711087077\n(expires): 1711090677\ndigest: BLAKE-512=5iuXHfUVckSmyHMZ2xXfm7cw/B6t0KYO05XdENKeGO7K9qTT2Fm81DQvboYhmvNKxYtJeoPJIbAfYTQgDRI3Zg=='
+DEBUG:root:Input to verify, the signature: tzlpAW13NWph71bYE10p7Qg9uCpjs5+WJrvOdQuHscOx+KPyifmTKcVEd+U3B0EnyUuP0hft91G3OM1AGy4ADg==
+DEBUG:root:Value of returnedbytes: b'(created): 1711087077\n(expires): 1711090677\ndigest: BLAKE-512=5iuXHfUVckSmyHMZ2xXfm7cw/B6t0KYO05XdENKeGO7K9qTT2Fm81DQvboYhmvNKxYtJeoPJIbAfYTQgDRI3Zg=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-22T11:27:56.506Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:27:56.506Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:35:13.601Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711087514",expires="1711091114",headers="(created) (expires) digest",signature="TYfApIw/tMvST1inj6IoyYOHALIzzz511DD1+v37A4SLA5u5TRzoruoF6YIVloOD2doqtvbsZmGTLor0Y4a+Cg=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:35:13.601Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711087514
+(expires): 1711091114
+digest: BLAKE-512=NZsip7xxi61xeU3wKjhOZaPPNvsmzRuQWzrl33zI+GUqDgGh2yz+OXUvnOSqzymp02OaY4NOWQWkPRlcQdJUMA==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: TYfApIw/tMvST1inj6IoyYOHALIzzz511DD1+v37A4SLA5u5TRzoruoF6YIVloOD2doqtvbsZmGTLor0Y4a+Cg==
+DEBUG:root:Within verify_response
+DEBUG:root:Input to verify: b'(created): 1711087514\n(expires): 1711091114\ndigest: BLAKE-512=NZsip7xxi61xeU3wKjhOZaPPNvsmzRuQWzrl33zI+GUqDgGh2yz+OXUvnOSqzymp02OaY4NOWQWkPRlcQdJUMA=='
+DEBUG:root:Input to verify, the signature: TYfApIw/tMvST1inj6IoyYOHALIzzz511DD1+v37A4SLA5u5TRzoruoF6YIVloOD2doqtvbsZmGTLor0Y4a+Cg==
+DEBUG:root:Value of returnedbytes: b'(created): 1711087514\n(expires): 1711091114\ndigest: BLAKE-512=NZsip7xxi61xeU3wKjhOZaPPNvsmzRuQWzrl33zI+GUqDgGh2yz+OXUvnOSqzymp02OaY4NOWQWkPRlcQdJUMA=='
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:35:13.601Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:35:13.601Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-22T11:35:13.601Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T11:35:13.601Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T15:56:50.052Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711103212",expires="1711106812",headers="(created) (expires) digest",signature="yIcjYoB5nzCXiU3kC1Yo3km4MZWR6qe8xo08SmcLruKmDnDX7jNH0GCnBACc07/47613GfjL5olILQgT+d3uCQ=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T15:56:50.052Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711103212
+(expires): 1711106812
+digest: BLAKE-512=T7E+6J8baKMomXNyYLjx5QBMS9IUrNJW5K8ZAp44DPK/7dE19l++CxbjeWNCRcvjgBr2R8ydXhBks5QOT5jFfQ==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: yIcjYoB5nzCXiU3kC1Yo3km4MZWR6qe8xo08SmcLruKmDnDX7jNH0GCnBACc07/47613GfjL5olILQgT+d3uCQ==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T15:56:50.052Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T15:56:50.052Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-22T15:56:50.052Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T15:56:50.052Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T16:04:39.661Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711103680",expires="1711107280",headers="(created) (expires) digest",signature="hAPssQVXefR8rew9ulm/8fAz548hcjeMgK3+q9iNc24TWEtrQzWJlAsURN1aMMDpP28xrm29fodc4MSKRGNFDg=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T16:04:39.661Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711103680(expires): 1711107280digest: BLAKE-512=J3rXvdmqwL/mMe0FV6wB35/hQpTU8p0KW+IHz1BRq0N+gSIay4gOTc2KvHrcEvB24YawpLBWXsG3WMNKbnHG3Q==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: hAPssQVXefR8rew9ulm/8fAz548hcjeMgK3+q9iNc24TWEtrQzWJlAsURN1aMMDpP28xrm29fodc4MSKRGNFDg==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T16:04:39.661Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T16:04:39.661Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "country": "IND",    "city": "std:011",    "action": "search",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com",    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",    "timestamp": "2024-03-22T16:04:39.661Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "item": {        "descriptor": {          "name": "pizza"        }      },      "fulfillment": {        "type": "Delivery",        "end": {          "location": {            "gps": "28.455856,77.094961"          }        }      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3.0"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "country": "IND",
+    "city": "std:011",
+    "action": "search",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com",
+    "transaction_id": "c99b8ddd-2ccd-42a0-9b86-3e11d3c501d2",
+    "message_id": "d4d3cae4-bbe2-4359-8834-794e8b5bacaf",
+    "timestamp": "2024-03-22T16:04:39.661Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "pizza"
+        }
+      },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": {
+          "location": {
+            "gps": "28.455856,77.094961"
+          }
+        }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:06:01.239Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711103762",expires="1711107362",headers="(created) (expires) digest",signature="2qPo4Ns9wiD1QUlBrEzAQ7B+bK/8pJSFojSam+bVQz3LajuwUFxBr6BaCnaHDCquX7xaBfPS5NqEeW3cHhsyDA=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:06:01.239Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711103762(expires): 1711107362digest: BLAKE-512=OeEyrPV+PoZsn0JKpcHo/Pu9E8FadB2rQTaSaseFxS3dEzzlMqQ3LuK1zo4cYOmLI4+OkZ7F/tDNW0oAuFJCeQ==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: 2qPo4Ns9wiD1QUlBrEzAQ7B+bK/8pJSFojSam+bVQz3LajuwUFxBr6BaCnaHDCquX7xaBfPS5NqEeW3cHhsyDA==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:06:01.239Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:06:01.239Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "T1",    "message_id": "M1",    "timestamp": "2024-03-22T16:06:01.239Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:06:01.239Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:06:01.239Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:39:23.942Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711105764",expires="1711109364",headers="(created) (expires) digest",signature="YOBVX3m5grujTqEJ1++0qn0n4eDuZdscvMJe4PmMsoyZo7bW6GNCGXJGpZ1L6lJuTHTNhwgmHBeQJ67+U9n2Aw=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:39:23.942Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711105764(expires): 1711109364digest: BLAKE-512=OjY/2igZU64nQ+dOywcrUmgPalg/1i5fJ1tHIrPWDVSeGYF8c7gsJt/cEEeDdWl4vrFwIbNrjjT0+j5mDy3rRA==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: YOBVX3m5grujTqEJ1++0qn0n4eDuZdscvMJe4PmMsoyZo7bW6GNCGXJGpZ1L6lJuTHTNhwgmHBeQJ67+U9n2Aw==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:39:23.942Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:39:23.942Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "T1",    "message_id": "M1",    "timestamp": "2024-03-22T16:39:23.942Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T16:39:23.942Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:34:56.323Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711116298",expires="1711119898",headers="(created) (expires) digest",signature="2zcpd+4suj9KHh3iYvF2f9574oTBlEUAph1PQ/oYli/HvQc+ktgIh/EPUjmg0DxWbmL/mlHlajF7kN4W4oKwDA=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:34:56.323Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711116298(expires): 1711119898digest: BLAKE-512=HAL10ZeXmVzAO2yaS83KDqdmoW7LV1fIABOkwzhcAz3NU0da/4He0CNNL66BY9wQsLPHlu24RTeMIAn122nj9w==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: 2zcpd+4suj9KHh3iYvF2f9574oTBlEUAph1PQ/oYli/HvQc+ktgIh/EPUjmg0DxWbmL/mlHlajF7kN4W4oKwDA==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:34:56.323Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:34:56.323Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "T1",    "message_id": "M1",    "timestamp": "2024-03-22T19:34:56.323Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:34:56.323Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:43:48.606Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711116829",expires="1711120429",headers="(created) (expires) digest",signature="VYD/vDXuXiLzfo8qJ235MN0JS+rF3CuoHmMTgcfAFiL/2AQCksjolQIMa8DDHbGS9tgnZH43N7Gc9+nb2rAUCg=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:43:48.606Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711116829(expires): 1711120429digest: BLAKE-512=ffxSYwpzQfD3Y5MLc3+5S6GnDrjZeq17J4AJJd/0SDNVtYvKxkYd2QJjSiGDcfKOPa/LBeedAwO20IHlv7e8Mg==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: VYD/vDXuXiLzfo8qJ235MN0JS+rF3CuoHmMTgcfAFiL/2AQCksjolQIMa8DDHbGS9tgnZH43N7Gc9+nb2rAUCg==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:43:48.606Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:43:48.606Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "T1",    "message_id": "M1",    "timestamp": "2024-03-22T19:43:48.606Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:43:48.606Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:44:28.129Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711116868",expires="1711120468",headers="(created) (expires) digest",signature="Gfy4uvDH3vIj30U+RdV7WQ3rHxsqLxYWCoNOborNRfRYHMYQqhLps4HE3cQxFUS0kHRdvuayUYbrvfpaNVa2Cw=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:44:28.129Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711116868(expires): 1711120468digest: BLAKE-512=OQwCn+96OqN+viBD45pc+kHY9uKzhbPoA8qZ+ioyADVuQQZcKbA5OgM2sU5P74cCZduu7rEMfDGSiMhU5vCpIQ==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: Gfy4uvDH3vIj30U+RdV7WQ3rHxsqLxYWCoNOborNRfRYHMYQqhLps4HE3cQxFUS0kHRdvuayUYbrvfpaNVa2Cw==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:44:28.129Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:44:28.129Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "T1",    "message_id": "M1",    "timestamp": "2024-03-22T19:44:28.129Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-22T19:44:28.129Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-28T21:10:40.446Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711640442",expires="1711644042",headers="(created) (expires) digest",signature="mxelCe96LajhZrbgRxZ9DgMreCWpyP2hfOgbDGhn4/Ec5Tv8EztHeMpg4rQSTXHEFbw2bJysOzUFETTi0BAVAg=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-28T21:10:40.446Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711640442(expires): 1711644042digest: BLAKE-512=gq+aQ4YDuYH9W8xftWRiVMOFuUVfRcf+Jo9S3TGTUpqB6uX7GUax2BZXtlrTHDu21gSCuCkhsc9TgwPg5TXqFw==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: mxelCe96LajhZrbgRxZ9DgMreCWpyP2hfOgbDGhn4/Ec5Tv8EztHeMpg4rQSTXHEFbw2bJysOzUFETTi0BAVAg==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-28T21:10:40.446Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-28T21:10:40.446Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "T1",    "message_id": "M1",    "timestamp": "2024-03-28T21:10:40.446Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "T1",
+    "message_id": "M1",
+    "timestamp": "2024-03-28T21:10:40.446Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "e6d9f908-1d26-4ff3-a6d1-3af3d3721054",
+    "message_id": "a2fe6d52-9fe4-4d1a-9d0b-dccb8b48522d",
+    "timestamp": "2024-03-28T21:12:17.493Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within create_authorization_header
+DEBUG:root:Value of private_key: dC06f7jFOrRx1yt2y/WU3k108NuW0rmJHZXvPzdSGKKbJIQ3yX5VJIbN5xL4hGmdu4VnPSCfAbL/TVEZ7TNQZw==
+DEBUG:root:Value of returned header: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711640538",expires="1711644138",headers="(created) (expires) digest",signature="8Uw8gm2pRB7dbma8E28SR0M3BUa9K3hdvUkMO4HzJ497Ft9/WiY/+qsabiBIY+5mBXr+D0LccW9mQpysDOswDQ=="
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "e6d9f908-1d26-4ff3-a6d1-3af3d3721054",
+    "message_id": "a2fe6d52-9fe4-4d1a-9d0b-dccb8b48522d",
+    "timestamp": "2024-03-28T21:12:17.493Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Within verify_authorization_header
+DEBUG:root:Value of signing_key: (created): 1711640538(expires): 1711644138digest: BLAKE-512=vB5sswLvQqjn9EN6CDe8uxX9zf553+2q0Pm5WWcJazRQFidiPMsAC4Gv4Mrj2z9Nt6Tb1pKhrDH21FJMzAUqmg==
+DEBUG:root:Value of public_key: mySEN8l+VSSGzecS+IRpnbuFZz0gnwGy/01RGe0zUGc=
+DEBUG:root:Signature given to verify_response: 8Uw8gm2pRB7dbma8E28SR0M3BUa9K3hdvUkMO4HzJ497Ft9/WiY/+qsabiBIY+5mBXr+D0LccW9mQpysDOswDQ==
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "e6d9f908-1d26-4ff3-a6d1-3af3d3721054",
+    "message_id": "a2fe6d52-9fe4-4d1a-9d0b-dccb8b48522d",
+    "timestamp": "2024-03-28T21:12:17.493Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of text_with_quotes: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "e6d9f908-1d26-4ff3-a6d1-3af3d3721054",
+    "message_id": "a2fe6d52-9fe4-4d1a-9d0b-dccb8b48522d",
+    "timestamp": "2024-03-28T21:12:17.493Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}
+DEBUG:root:Value of mytextv2: b'{  "context": {    "domain": "ONDC:RET10",    "action": "search",    "country": "IND",    "city": "std:080",    "core_version": "1.2.0",    "bap_id": "laathi.com",    "bap_uri": "https://laathi.com/",    "transaction_id": "e6d9f908-1d26-4ff3-a6d1-3af3d3721054",    "message_id": "a2fe6d52-9fe4-4d1a-9d0b-dccb8b48522d",    "timestamp": "2024-03-28T21:12:17.493Z",    "ttl": "PT30S"  },  "message": {    "intent": {      "category": {        "id": "Foodgrains"      },      "fulfillment": {        "type": "Delivery"      },      "payment": {        "@ondc/org/buyer_app_finder_fee_type": "percent",        "@ondc/org/buyer_app_finder_fee_amount": "3"      }    }  }}'
+DEBUG:root:Within cryptic_utils.py
+DEBUG:root:Value of gg: <_io.TextIOWrapper name='c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\myrequestNEW2v22.json' mode='r' encoding='cp1252'>
+DEBUG:root:Value of request_body_raw_text: {
+  "context": {
+    "domain": "ONDC:RET10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "laathi.com",
+    "bap_uri": "https://laathi.com/",
+    "transaction_id": "e6d9f908-1d26-4ff3-a6d1-3af3d3721054",
+    "message_id": "a2fe6d52-9fe4-4d1a-9d0b-dccb8b48522d",
+    "timestamp": "2024-03-28T21:12:17.493Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "id": "Foodgrains"
+      },
+      "fulfillment": {
+        "type": "Delivery"
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3"
+      }
+    }
+  }
+}

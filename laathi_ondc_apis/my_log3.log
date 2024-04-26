@@ -1,0 +1,1152 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:24:19] "[33mGET /__/firebase/init.js?useEmulator=true HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:24:24] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:24:54] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:24:59] "GET /test HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:26:11] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:26:35] "POST /subscribe HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\backendv6.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [05/Mar/2024 18:29:05] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:29:08] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:29:54] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:30:06] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:31:19] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:33:56] "POST /subscribe HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\backendv6.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:45:53] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:46:36] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 11:46:51] "POST /subscribe HTTP/1.1" 200 -
+DEBUG:root:Within subscribe
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.registry.ondc.org:443
+DEBUG:urllib3.connectionpool:https://staging.registry.ondc.org:443 "POST /subscribe HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [06/Mar/2024 12:22:53] "POST /subscribe HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710843037",expires="1710846637",headers="(created) (expires) digest",signature="PishpNKU1i51rW6nYj8Cb6WBh52U7QEDnsmOsTi5glQc/rpPfK+r8hrg4GhSDsR3NImop7b0zUc5TuZP/qJhDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 465
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 15:40:45] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710856937",expires="1710860537",headers="(created) (expires) digest",signature="M36a9uI0zrFz7P6mp4fgVhMrxpxUb2WD5RT3KmXuD227bFJ5aiLa9loFNytS/PbWfJour4XPgW2gF1FnSvK6DQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 447
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 19:32:25] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710857470",expires="1710861070",headers="(created) (expires) digest",signature="rZxJPNLFE8Af1fZ/wTiAY2WTdj8xk1fAIglRSje/4juFwSHgjg+MtYPQRtlM3dYexiJxe81kcR+qOuzEwpFCDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 19:41:14] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+INFO:werkzeug:127.0.0.1 - - [20/Mar/2024 11:53:37] "[31m[1mPOST /search HTTP/1.1[0m" 400 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710857470",expires="1710861070",headers="(created) (expires) digest",signature="rZxJPNLFE8Af1fZ/wTiAY2WTdj8xk1fAIglRSje/4juFwSHgjg+MtYPQRtlM3dYexiJxe81kcR+qOuzEwpFCDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 448
+INFO:werkzeug:127.0.0.1 - - [20/Mar/2024 11:54:21] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710915905",expires="1710919505",headers="(created) (expires) digest",signature="eQR5kj9heEVmEDsAWL/vIvr6PBze2uNl3hN/xmBb3zthmmrz1ts1VTui6Q2VuvKXt3ZtCvYZaCnvO873DJHBDQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [20/Mar/2024 11:55:09] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1710915905",expires="1710919505",headers="(created) (expires) digest",signature="eQR5kj9heEVmEDsAWL/vIvr6PBze2uNl3hN/xmBb3zthmmrz1ts1VTui6Q2VuvKXt3ZtCvYZaCnvO873DJHBDQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [20/Mar/2024 11:55:57] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711003602",expires="1711007202",headers="(created) (expires) digest",signature="Ro62K0M1itKtpwGLUN1IdUIg/3YVlor4VJyEY1PjRDjvxu4EWiiq4hMgq79OqZb/xEK4Lt6lGkDKBoIWJvM+DQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2024 12:16:55] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711003709",expires="1711007309",headers="(created) (expires) digest",signature="UwWeOkgTQ6sowFXPG1C3yOET5BVgW9g6EZlnEitbvoiTXkszLqY3NPQ1TGk8sitdu686IEsATjfW7zb/phPsDw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [21/Mar/2024 12:18:33] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 10:59:26] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 10:59:50] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 468
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 11:22:27] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 457
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 11:22:39] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 11:22:48] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711087077",expires="1711090677",headers="(created) (expires) digest",signature="tzlpAW13NWph71bYE10p7Qg9uCpjs5+WJrvOdQuHscOx+KPyifmTKcVEd+U3B0EnyUuP0hft91G3OM1AGy4ADg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 11:28:00] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\tempCodeRunnerFile.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711087514",expires="1711091114",headers="(created) (expires) digest",signature="TYfApIw/tMvST1inj6IoyYOHALIzzz511DD1+v37A4SLA5u5TRzoruoF6YIVloOD2doqtvbsZmGTLor0Y4a+Cg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 11:35:17] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 395
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 11:41:33] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711103212",expires="1711106812",headers="(created) (expires) digest",signature="yIcjYoB5nzCXiU3kC1Yo3km4MZWR6qe8xo08SmcLruKmDnDX7jNH0GCnBACc07/47613GfjL5olILQgT+d3uCQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:57:00] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711103680",expires="1711107280",headers="(created) (expires) digest",signature="hAPssQVXefR8rew9ulm/8fAz548hcjeMgK3+q9iNc24TWEtrQzWJlAsURN1aMMDpP28xrm29fodc4MSKRGNFDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:04:45] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711103762",expires="1711107362",headers="(created) (expires) digest",signature="2qPo4Ns9wiD1QUlBrEzAQ7B+bK/8pJSFojSam+bVQz3LajuwUFxBr6BaCnaHDCquX7xaBfPS5NqEeW3cHhsyDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 395
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:06:06] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 453
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:37:16] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 453
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:38:10] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 385
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:38:36] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711085360",expires="1711088960",headers="(created) (expires) digest",signature="hJVJv2lomkAmlsvLQV53WJbzW8Peq1XBfNUnllbJTtmlDIPpSbYVWbG2Ihm8hRcAzR3/gxgkfDMr62WHVtq+BA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 381
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:38:55] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711105764",expires="1711109364",headers="(created) (expires) digest",signature="YOBVX3m5grujTqEJ1++0qn0n4eDuZdscvMJe4PmMsoyZo7bW6GNCGXJGpZ1L6lJuTHTNhwgmHBeQJ67+U9n2Aw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 395
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:39:28] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711105764",expires="1711109364",headers="(created) (expires) digest",signature="YOBVX3m5grujTqEJ1++0qn0n4eDuZdscvMJe4PmMsoyZo7bW6GNCGXJGpZ1L6lJuTHTNhwgmHBeQJ67+U9n2Aw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 391
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:39:46] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711105764",expires="1711109364",headers="(created) (expires) digest",signature="YOBVX3m5grujTqEJ1++0qn0n4eDuZdscvMJe4PmMsoyZo7bW6GNCGXJGpZ1L6lJuTHTNhwgmHBeQJ67+U9n2Aw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 16:40:27] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711116298",expires="1711119898",headers="(created) (expires) digest",signature="2zcpd+4suj9KHh3iYvF2f9574oTBlEUAph1PQ/oYli/HvQc+ktgIh/EPUjmg0DxWbmL/mlHlajF7kN4W4oKwDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 391
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 19:35:04] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711116868",expires="1711120468",headers="(created) (expires) digest",signature="Gfy4uvDH3vIj30U+RdV7WQ3rHxsqLxYWCoNOborNRfRYHMYQqhLps4HE3cQxFUS0kHRdvuayUYbrvfpaNVa2Cw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 391
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 19:44:33] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711640442",expires="1711644042",headers="(created) (expires) digest",signature="mxelCe96LajhZrbgRxZ9DgMreCWpyP2hfOgbDGhn4/Ec5Tv8EztHeMpg4rQSTXHEFbw2bJysOzUFETTi0BAVAg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 391
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:10:47] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711640538",expires="1711644138",headers="(created) (expires) digest",signature="8Uw8gm2pRB7dbma8E28SR0M3BUa9K3hdvUkMO4HzJ497Ft9/WiY/+qsabiBIY+5mBXr+D0LccW9mQpysDOswDQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:12:21] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: "Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711641310",expires="1711644910",headers="(created) (expires) digest",signature="9qbzz0REaIM4Dw1k6cL/cxarz7n2bry3mzysF8DPBY5CNhtyOvpBYxoDDYEmXVX5+K5Pp/Av3cBRibNftIXEBg==""
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 437
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:25:14] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711641571",expires="1711645171",headers="(created) (expires) digest",signature="V+wpBCvO53/6Ao7hHPj6zvIZbks2Riku/H0qb7acQOh8LLPB7YHKUQxb8XP7/kjzxmFXmVyqYExpsVr6KDSyBQ==""
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:29:35] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: 
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 451
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:30:26] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711641649",expires="1711645249",headers="(created) (expires) digest",signature="sBS1vPAsqKAXmw2k/sQUAVm3ttty6HK+IxxRmvXioNOAkhqyqgPKFYwpa4DJ6OkRZ1tXdSUio7MBXvr9+LVNBw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:30:52] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711642504",expires="1711646104",headers="(created) (expires) digest",signature="A4aUzFKt4TJC/VyetEdpKJbs/moIiQUPkPR8xHv1HKGHiQknojrgEhGxYe1oIvLUrQos+H4asrxQCZ+VwF6iBg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:45:07] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: ignature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711642975",expires="1711646575",headers="(created) (expires) digest",signature="CLg6Xw2ksDUaZvIjTcCcFpuulHLBCsi0Qx4flktSxNhOx8xrArUczTDgXnLQRAvQgbQoSPPnyXJhZkUA7m/iBQ==
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 454
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:52:59] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711643012",expires="1711646612",headers="(created) (expires) digest",signature="zF4HmCOhFRYraqSo2pnoPgvtISjOs+UYpe+7Iqfv4hXxSVS89OeAfFEX9eOPM7LiXXslS0XxRtyuoNmSWKNXDQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:53:35] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711643098",expires="1711646698",headers="(created) (expires) digest",signature="OioEiwqe72fCO+sQ0fz5+GSA1u10/spTdEtxck9LApmQ+8BIrsVZrDvK/B/Re4suvPgMcm3bIFUvr++OPsKVAw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:55:02] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711643128",expires="1711646728",headers="(created) (expires) digest",signature="ZLZA1Ns4QnSdumzIMH25f8PajsW9jvsQtUfpSZSpWbWbyAtWoYANkQ4fcDSnCwuv0SsepYGbR2zeiRjkAYjjAQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:55:31] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1711643128",expires="1711646728",headers="(created) (expires) digest",signature="ZLZA1Ns4QnSdumzIMH25f8PajsW9jvsQtUfpSZSpWbWbyAtWoYANkQ4fcDSnCwuv0SsepYGbR2zeiRjkAYjjAQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 21:58:43] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: "Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712557525",expires="1712561125",headers="(created) (expires) digest",signature="iJZ3+9dj81WtSPuY2c0cYEgsnG/Foalj1avBmHy08Os3TS7PrkIwkHlQ/ZqAHxIoc12zh3v65I9PJ/Wk1yUBDQ==""
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 437
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:55:31] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: S
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 454
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:57:22] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712557671",expires="1712561271",headers="(created) (expires) digest",signature="iJl5WRN7jWrt8zMVxuOVbmkZKAXiJGkTR4R66G3IdU/67zoC9Mhemk7vIRx42IVCHddSKQ2YZlzZJPyUPr2iBQ==""
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:57:54] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712557739",expires="1712561339",headers="(created) (expires) digest",signature="vnaUaMWzH/SXGHnLWQrIhbeNlc9p6vzdSMuZQkyxWMk9P5+1iMWCKmWxjzNYYUIfw141R2Z2s7FKbG3+W1+kCg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:59:03] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712560877",expires="1712564477",headers="(created) (expires) digest",signature="iH+T7OKPaY63eJAAkdFgmYjAmyD0l3bcyQfzJIqKRg0colh7WE+MolMP1lsmVqleMZB41b5WCj+iVo8iY42BAA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:51:20] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712560954",expires="1712564554",headers="(created) (expires) digest",signature="QtMncK4wY5bl/I2EA0b9KUkpe2uhwNfyMHiB1VmfKeFRuRa6ptIf3ay0sUGca9P+qum56vz2R7K+GKUBv6z/DA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:52:37] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712561022",expires="1712564622",headers="(created) (expires) digest",signature="O62BmRFdil62Z01cjGFl2fCldcjzaMX4nnzEl77taHhQy+DkXLtAxa8SeoISysUuJ/mQWHpMI5PjGRUklfnaBA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:53:44] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="omkar|786|ed25519",algorithm="ed25519",created="1712561087",expires="1712564687",headers="(created) (expires) digest",signature="6GnQ8R96wDlzJSaX9aDXMDfTNWNXg8yWzI4dqiAugDI/IrjyhBVfNo90Tg/6m/XfEQnvlW17cGnO2pGZ8R2EAw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 447
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:54:49] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\cryptic_utils_new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 128-892-797
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712562235",expires="1712565835",headers="(created) (expires) digest",signature="tNk4a2pGY8kcGl0bT2hBte1gzk8dJUVmisxgZSrmAK6Hu9VOVC4jeb3r3swA9GahDzilIgF6wXBw9Xl1h98KBg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 13:13:57] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 15:03:13] "[31m[1mPOST /search HTTP/1.1[0m" 415 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712833858",expires="1712837458",headers="(created) (expires) digest",signature="gmY2usN6emR5jZaOU0icG0f62aZMU268+5efRnkhCvWR0wNUd52ralguXV5rFTV+Ft26WSJmDVvxVhnPMe2fAg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 448
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 15:03:20] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712914435",expires="1712918035",headers="(created) (expires) digest",signature="1NWoVjq1/Qh+BUR5CTJ7tA0J30H/TVLV6xvOK7W/aiucWg0XQzKzzfAW73WzHOy6qsW/SkX3D8O1C9nlepduDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 15:03:57] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712773072",expires="1712776672",headers="(created) (expires) digest",signature="/8p0xdtYxCRHrZMb9203kKy/XX+qt9BDeVV79Br1RF2hLGzimZE/cNqiCHlnRbeTTwJLNpyVJNGs/85batw2Cg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 448
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 15:05:46] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712914489",expires="1712918089",headers="(created) (expires) digest",signature="XtUJmT4LRNiJJ8ZqeE7DwyaxBhFL4AeGK7jXHJIHOu8r4hAME84zs+KmJzOOcMk+DGGr97RUQFOs0Df9clAsDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 15:06:10] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\backend-new.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712990386",expires="1712993986",headers="(created) (expires) digest",signature="w2nQXYaai16GKnf2J0MroIA8CyYNraT7lFteIw9Vb0klAw252aYO2clN1phbKzOu+HJ4unkhSJVA3+irTwnYDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 12:09:52] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712915709",expires="1712919309",headers="(created) (expires) digest",signature="lbsJhsly52PpNgGlfHPogW+DpQ8DdF3MnQkM9SnefnT8CoIQd6PMHAgrMp+c1IjbPi2qpAdmx3/fJIssKvWkCg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 448
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 12:27:58] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712990386",expires="1712993986",headers="(created) (expires) digest",signature="w2nQXYaai16GKnf2J0MroIA8CyYNraT7lFteIw9Vb0klAw252aYO2clN1phbKzOu+HJ4unkhSJVA3+irTwnYDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 458
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 12:28:14] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\backendv6.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712992063",expires="1712995663",headers="(created) (expires) digest",signature="2GBgisY63NicOcGJHtNFDSkKZbzZKI4rEdXXVswKA/nIdWbF8uVGrRQEGkQMo4nY2W82wdKdN8Yp5F7uupCmCw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ref-app-buyer-staging-v2.ondc.org:443
+DEBUG:urllib3.connectionpool:https://ref-app-buyer-staging-v2.ondc.org:443 "POST /protocol/search HTTP/1.1" 200 385
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 12:37:48] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1712990386",expires="1712993986",headers="(created) (expires) digest",signature="w2nQXYaai16GKnf2J0MroIA8CyYNraT7lFteIw9Vb0klAw252aYO2clN1phbKzOu+HJ4unkhSJVA3+irTwnYDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ref-app-buyer-staging-v2.ondc.org:443
+DEBUG:urllib3.connectionpool:https://ref-app-buyer-staging-v2.ondc.org:443 "POST /protocol/search HTTP/1.1" 200 385
+INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 12:46:49] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\backendv6.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713249286",expires="1713252886",headers="(created) (expires) digest",signature="RK2zBWFIPG1YPLc36L6kB7wsXZuUJs26JR4Y8njbniWEd/pD1bI2BqxdON87nDWOJJTE0woKuisUNLQAf/oUAQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:04:51] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713249425",expires="1713253025",headers="(created) (expires) digest",signature="kdiY/Lidh/awLIHdxetkL+M3+aXAmJfddZ7xcunWURD9rfTYyftzKtHMZGMQzNdvv4lYVLn7B1RsjzE4vOhWCg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:07:10] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713249460",expires="1713253060",headers="(created) (expires) digest",signature="ambIa5uBOSqpLT7srrMA1QWGnk1AhB9ygJwRCBY873f6zSlQFubqmHb4Xz1MrrrDNhICdaVtMbX7zWDzEcIWAw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:07:44] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713251119",expires="1713254719",headers="(created) (expires) digest",signature="NUMmbmW2Q26gXOZp2ADFL/V01tG/fbdUOy+rkEBj8G6PBKMMbQoC2x/iT0J0dgjsSx0g2iLLKyw0/6lWogEOCw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:35:23] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713424817",expires="1713428417",headers="(created) (expires) digest",signature="O4MToJDYmjR0SwgzhKMRluB3v4LEs1V1+Z6unyJYmrmOgDA+rkZLbM/0O6MmnlmOaL9XM9KAhJ64Du5ppTfiBA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 12:50:22] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713426649",expires="1713430249",headers="(created) (expires) digest",signature="jwKL/cbxgVEFDtJeMyV+gSqqBCF5DNGkimevYSFIUnFQzD5As6Q8QnWT8LZvmGCR22QIPbwxXXFWqbVLRh26DQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 13:20:51] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713426890",expires="1713430490",headers="(created) (expires) digest",signature="6C2khPUexqLytL/jkrdpabNY7yeC5phPBQJ2qpO77snPMyh91G2VLtgCGjeeffX18vuswHJDsYfDwFeWX14XDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 13:24:53] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713427238",expires="1713430838",headers="(created) (expires) digest",signature="xmYiskJ534qov4nvKReiwDa1cNMgJa8oY5L3eAchcyL9uVYYCPlZgC7Hl6MOEVGSgddh0YFMKrqRR1JkWTmqDw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 13:30:40] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713456495",expires="1713460095",headers="(created) (expires) digest",signature="SPc37O1eHVrBnqNgkdDlAQ+0eLeaP4aZRU0QIQjQ8zqbceqZI/hFyX3r5iUE4D48n1JOig/zmBMnzI4CWVKrCw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 21:38:22] "POST /search HTTP/1.1" 200 -
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713461098",expires="1713464698",headers="(created) (expires) digest",signature="WSb4q9GUXM1aG0XccTkTeCDNcKecCyhuzyfgI/xRURFnZLjtWR7ngLkxrbJluWutAYzzOPy6aFH15ozAs4ULCw=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 22:55:03] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713532616",expires="1713536216",headers="(created) (expires) digest",signature="gVQI5NBtwrxrU5kj5eZYI/iVJQMoQwA/0jJ9HgE8BXXOcHufFtXTKx+nVTU7TVoIaz34qthRKsQSSI6po5gxDg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 18:47:00] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713532968",expires="1713536568",headers="(created) (expires) digest",signature="3j6F46Fuo9JrNX67zVhdWd6xodMlFx1DOnQGwVSSnhrroMasej3eQNv0MXpnJPdVBmoVvYO2QAEh7GaKHKnwDQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 18:52:52] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713533089",expires="1713536689",headers="(created) (expires) digest",signature="Tapi4UsJ6Dns9e4XIeUAvTzFFvremCxNq5k9CS/eNJIddEevzCImur/ZvPE8hZCNJ7JIDMR40bB9CjK6SJijDA=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 500 20
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 18:54:53] "[35m[1mPOST /search HTTP/1.1[0m" 0 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713533414",expires="1713537014",headers="(created) (expires) digest",signature="sZeu3nl21NFcVa6ulVqr93Ptcp6138PDRc2GZBSw2bewyOGN3ghsuIezCwtDd4eZL9lLzQ/1RvQgiTCprJ1yCQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 401 459
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 19:00:18] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\response.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+INFO:werkzeug: * Detected change in 'c:\\Users\\Omkar Bhamare\\OneDrive\\Documents\\Laathi-ONDC\\laathi_ondc_apis\\ondc\\functions\\filebasedinstallertestv3.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713855213",expires="1713858813",headers="(created) (expires) digest",signature="ThGnYovBPFoBrmTT2J7UU+DY9OiytELEIl+iRcPlsLsb7XxrjqFaR8N9izTlayxkcY3ZTfsyMAbIDfzsQfF3DQ=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 200 359
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 12:23:38] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 218-331-685
+DEBUG:root:Within handle_search()
+DEBUG:root:Value of myauth: Signature keyId="laathi.com|731|ed25519",algorithm="ed25519",created="1713945386",expires="1713948986",headers="(created) (expires) digest",signature="RoJKRoqMGIg9lSXyVgngpQjWQ7U96VlcSfMpfPvqy60iOTLjvQ3JXkUZedRGy2P5vcMrjvFBZcwQTXqZNhqOAg=="
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): staging.gateway.proteantech.in:443
+DEBUG:urllib3.connectionpool:https://staging.gateway.proteantech.in:443 "POST /search HTTP/1.1" 200 359
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2024 13:26:31] "POST /search HTTP/1.1" 200 -

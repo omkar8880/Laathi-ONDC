@@ -1,0 +1,12 @@
+[submodule "biap-app-ui-front"]
+    path = biap-app-ui-front
+    url = https://github.com/ONDC-Official/biap-app-ui-front.git
+[submodule "ondc-mmi-service"]
+    path = ondc-mmi-service
+    url = https://github.com/ONDC-Official/mmi-service-template.git
+[submodule "biap-client-node-js"]
+    path = biap-client-node-js
+    url = https://github.com/ONDC-Official/biap-client-node-js.git
+[submodule "py-ondc-protocol"]
+    path = py-ondc-protocol
+    url = https://github.com/ONDC-Official/py-protocol-layer.git
